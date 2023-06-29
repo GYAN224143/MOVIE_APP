@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,700&display=swap");
+/*
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+*/
+
+/* Globals */
+/* Globals */
+/* Globals */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f3f5f7;
+  scroll-behavior: smooth;
+}
+a:link,
+a:visited {
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+a:hover,
+a:active {
+  color: rgb(6, 6, 6);
+  background-color: #ed462f;
+  box-shadow: 0 1rem 2rem rgba(black, 0.4);
+  padding: 2px;
+  border-radius: 2px;
+  /* -webkit-transform: rotate(5deg) scale(1.3); */
+}
+.navbar {
+  background-color: white;
+  font-size: 1.3rem;
+  height: 80px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #0c0c0c;
+  text-align: center;
+}
+.btn {
+  color: black;
+  font-weight: 900;
+  border: none;
+}
+.form-group {
+  border: 2px solid rgb(250, 198, 198);
+  border-radius: 3px;
+}
+/* Character Search Page */
+/* Character Search Page */
+/* Character Search Page */
+.jumbotron {
+  background-color: #efe3ef;
+}
+.header-main-title {
+  color: #fff;
+}
+.asdf {
+  background-color: red;
+}
+.character-search-box,
+.search-character-button {
+  border-radius: 0;
+}
+.search-character-button {
+  background-color: #fdfdfd;
+}
+#characterMainTitle,
+#comicMainTitle {
+  color: #000000;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 20px;
+}
+.cardT {
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px 20px 20px;
+}
+.card-body {
+}
+i {
+  cursor: pointer;
+}
+.fa-add:before,
+.fa-plus:before {
+  content: "\2b";
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  justify-content: right;
+}
+
+/* Single Comic Page */
+/* Single Comic Page */
+/* Single Comic Page */
+/* Single Comic Page */
+/* .single-comice__container {
+    background-color: #22262A;
+} */
+@media (max-width: 320px) {
+  .card {
+    position: relative;
+
+    /* right: 35px; */
+  }
+  .cardC {
+    position: relative;
+    left: 0px;
+  }
+}
